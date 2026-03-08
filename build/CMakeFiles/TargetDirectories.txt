@@ -1,0 +1,6 @@
+/home/nandi/code/todos/build/CMakeFiles/rust_target.dir
+/home/nandi/code/todos/build/CMakeFiles/todos.dir
+/home/nandi/code/todos/build/CMakeFiles/edit_cache.dir
+/home/nandi/code/todos/build/CMakeFiles/rebuild_cache.dir
+/home/nandi/code/todos/build/CMakeFiles/todos_autogen_timestamp_deps.dir
+/home/nandi/code/todos/build/CMakeFiles/todos_autogen.dir

@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+3f268ec9605dba305315223642957e3d /home/nandi/code/todos/rust/src/interface.rs
+7be7f22e591cada665f7e9ba4c7f6c5b /home/nandi/code/todos/rust/target/release/librust.a
+231057a88584d2a716d0a06b4f2bef41 CMakeFiles/rust_target
+231057a88584d2a716d0a06b4f2bef41 CMakeFiles/todos_autogen
+231057a88584d2a716d0a06b4f2bef41 CMakeFiles/todos_autogen_timestamp_deps
+8a2d5a093be903c7d16cd7492b6df8aa todos_autogen/EWIEGA46WW/qrc_qml.cpp
+b1d9bb80852c6ac432520cfbba9b1660 todos_autogen/timestamp

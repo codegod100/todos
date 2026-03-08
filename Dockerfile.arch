@@ -1,0 +1,26 @@
+FROM archlinux:latest
+
+RUN pacman -Syu --noconfirm \
+    qt5-base \
+    qt5-declarative \
+    qt5-quickcontrols2 \
+    qt5-tools \
+    cmake \
+    rust \
+    cargo \
+    gcc \
+    make \
+    git \
+    ninja
+
+RUN cargo install rust_qt_binding_generator
+
+WORKDIR /build
+COPY . .
+
+RUN mkdir build_dir && cd build_dir && \
+    export PATH=$PATH:$HOME/.cargo/bin && \
+    cmake -GNinja .. && \
+    ninja
+
+# The binary will be in /build/build_dir/todos
