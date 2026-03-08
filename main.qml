@@ -44,7 +44,7 @@ ApplicationWindow {
                 || (filter.currentIndex === 1 && !completed)
                 || (filter.currentIndex === 2 && completed)
             visible: show
-            width: parent.width
+            width: parent ? parent.width : 0
             height: show ? implicitHeight : 0
             CheckBox {
                 checked: completed
