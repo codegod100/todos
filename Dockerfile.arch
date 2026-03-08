@@ -1,10 +1,9 @@
 FROM archlinux:latest
 
 RUN pacman -Syu --noconfirm \
-    qt5-base \
-    qt5-declarative \
-    qt5-quickcontrols2 \
-    qt5-tools \
+    qt6-base \
+    qt6-declarative \
+    qt6-tools \
     cmake \
     rust \
     cargo \
